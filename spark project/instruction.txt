@@ -1,0 +1,9 @@
+
+Basic Banking System
+
+
+index --> get start-->send money-->see transaction history-->home
+
+
+NAME :- PIYUSH PATEL
+TASK:- BASIC BANKING SYSTEM

@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title></title>
+    <!-- Bootstrap CDN -->
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <!-- AOS  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+
+    </script>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+     <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+       <div class="container-fluid">
+         <div class="navbar-header">
+
+           <a class="navbar-brand" href="#"> <img src="" >
+         <div class="collapse navbar-collapse" id="navbar-collapse-main">
+           <ul class="nav navbar-nav navbar-right">
+             <li><a class="active" href="./index.html">Home</a>  </li>
+             <li> <a class="active" href="./customer.html">Transaction</a></li>
+
+
+           </ul>
+
+         </div>
+       </div>
+
+     </nav>
+     <div id="home">
+       <div class="landing-text">
+         <h1>THE SPARKS<br>FOUNDATION</br>BANK</h1>
+         <h3>Start Your transcation from here</h3>
+         <a href="./customer.html" class="btn-default btn-lg">Get start</a>
+
+
+      </div>
+       </div>
+
+       <div class="padding" id="fixed">
+         <div class="container">
+           <div class="row">
+             <div class="w3-content w3-section" style="max-width:500px">
+              <img class="mySlides" src="https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/c4186bce-8c66-4739-9177-11652b01e0bc/Personal/Home/content/Hero%20Banners/Feb-2021/26-Feb-716x298.jpg" style="height:100%;width:200%">
+              <img class="mySlides" src="https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/9da82d07-eefe-4775-bc68-2dbb59646407/Target/November-2020/AL_NPA_716x298_nov2020.jpg" style="width:100%;width:200%">
+              <img class="mySlides" src="https://www.hdfcbank.com/content/api/contentstream-id/723fb80a-2dde-42a3-9793-7ae1be57c87f/25b28d34-a2f8-478f-adad-48371950c859/Wholesale/Home/Hero%20Banners/2020/HF-banner-Adapts-131020-Wholesale-Home-Page-Carousal-716-X-298.png" style="width:200%;height:100%">
+              <img class="mySlides" src="https://www.hdfcbank.com/htdocs/Target/10412_NRI-Acquisition--Takeover-banner.jpg" style="width:200%;height:60%">
+             </div>
+
+
+           </div>
+         </div>
+
+       </div>
+
+    <div id="fixed">
+      <div class="col-sn-6 text-center">
+        <h1>THE <br>SPARKS FOUNDATION<br> BANK</h1>
+        <h3>We make world from here</h3>
+        <h3>we are for the people<br>of the people</br>by the people</h3>
+        </div>
+
+     </div>
+   </div>
+
+ </div>
+    </div>
+
+
+
+ <footer class="container-fluid text-center">
+  <div class="row">
+    <div class="col-sm-4">
+      <h3>contact us</h3>
+      <hr>
+      <h4>our address here</h4>
+    </div>
+    <div class="col-sm-4">
+       <h3>contact</h3>
+       <a href="#" class="fa fa-facebook"></a>
+       <a href="#" class="fa fa-twitter"></a>
+       <a href="#" class="fa fa-google"></a>
+       <a href="#" class="fa fa-instagram"></a>
+    </div>
+    <div class="col-sm-4">
+       <img src="" alt="" class="icon">
+    </div>
+
+  </div>
+</footer>
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("mySlides");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
+  }
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2000); // Change image every 2 seconds
+}
+     var preloader = document.getElementById("loading");
+     function loader(){
+       preloader.style.display = 'none';
+     }
+   </script>
+
+   <script src="./script.js"></script>
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+   <script src="https://unpkg.com/popper.js@1.12.6/dist/umd/popper.js"></script>
+   <script src="https://unpkg.com/bootstrap-material-design@4.1.1/dist/js/bootstrap-material-design.js"></script>
+
+   <!-- aos data  -->
+   <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+   <script>
+     AOS.init({
+       duration: 700,
+     });
+   </script>
+  </body>
+</html>
